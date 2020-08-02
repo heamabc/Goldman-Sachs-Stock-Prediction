@@ -1,7 +1,7 @@
 # Goldman-Sachs-Stock-Prediction
 
 ## Data
-As our model need to train and predict daily, we will use prices of different financial securities as the features of our model.
+As our model need to train and predict daily, we will use prices of different financial securities as the features of our model. On the other hand, we generated some feature to capture the trends and behaviour of the stock price and performed some natural language processing to obtain investors' opnion towards the market.
 
 ### Related Stock's Price
 We believe that stocks related to Goldman Sachs will affect the price movement of GS. Therefore, we include some of the stocks that is related to Goldman Sachs. We consider which stocks to be included based on 3 different criterion. 
@@ -25,10 +25,8 @@ In statistics, ARIMA can predict the stock price reasonably accurately. After so
 Like technical indicator, fourier transform can help us capture some short term and long tern trends and behavriour. We include several fourier transforms of GS in our model as features.
 
 ### Twitter Sentiment of Financial Market
-The stock market is also greatly affected by the investors' opinion on the market. We capture all the tweets from the twitter account @market 
+The stock market is also greatly affected by the investors' opinion towards the market. We captured all the tweets from the twitter account @market (https://twitter.com/markets) and used a pretrained natural language processing package BERT to analyse the sentiment of the tweets.
 
-
-### Related Company
 
 ## Results
 ![train_test](https://github.com/heamabc/Goldman-Sachs-Stock-Prediction/blob/master/Illustration1.png)
