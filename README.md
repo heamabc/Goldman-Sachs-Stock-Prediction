@@ -42,7 +42,7 @@ The stock market is also greatly affected by the investors' opinion towards the 
 
 ## Model
 ### LSTM
-We used on layer of LSTM. Performed Xavier initialization and triangular learning rate.
+We used on layer of LSTM. Performed Xavier initialization and triangular learning rate. Script can be found here.
 https://colab.research.google.com/drive/1lZEOXqNrxw_Vj2eZSkbyRecn6pSA0Ilk?usp=sharing
 
 
