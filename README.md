@@ -1,12 +1,12 @@
 # Goldman-Sachs-Stock-Prediction
 
 [Data](#Data)
-[Fixed Income Security](#Fixed-Income-Security)
+[- Fixed Income Security](#Fixed-Income-Security)
 
 ## Data
 As our model need to train and predict daily, we will use prices of different financial securities as the features of our model. On the other hand, we generated some feature to capture the trends and behaviour of the stock price and performed some natural language processing to obtain investors' opnion towards the market.
 
-### Related Stock's Price
+### Related Stocks Price
 We believe that stocks related to Goldman Sachs will affect the price movement of GS. Therefore, we include some of the stocks that is related to Goldman Sachs. We consider which stocks to be included based on 3 different criterion. 
 - 1. Economical Analysis. We examined if the stock is related Goldman Sachs based on some economical reasoning, for example, are they belong to the same industry, do they have to same customer maket. 
 - 2. Statistical Analysis. We calculated the correlation of the stock price and stock return of the related stocks.
