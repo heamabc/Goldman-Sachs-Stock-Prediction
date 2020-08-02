@@ -9,6 +9,25 @@ We believe that stocks related to Goldman Sachs will affect the price movement o
 - 2. Statistical Analysis. We calculated the correlation of the stock price and stock return of the related stocks.
 - 3. Bloomberg Indicator. Bloomberg Intelligence can tell us some of the major competitors of Goldman Sachs. We included those competitors in this category.
 
+### Fixed Income Security
+We believe that the fixed income market affect the stock market in general significantly. Also, as an investment bank, the business will be greatly affected by any fluctuation in interest rate. Therefore, we include several fixed income securities such as LIBOR, Fed Funds, and some other fixed income ETF.
+
+### Global and Local Economy
+The overal performance of the economy is a great factor affecting the stock market. Therefore, we include some composite indeces and ETF to reflect the economy. Eg, S&P500, HSI, FTSE, etc.
+
+### Technical Indicator of GS
+Base on the theory of techinical analysis, the technical indicators can tell us some of the short term and long term trends of the stock price. We include technical indicator in order to capture those trends.
+
+### ARIMA of GS
+In statistics, ARIMA can predict the stock price reasonably accurately. After some validation of the model, ARIMA model of (2,1,1) is the best model.
+
+### Fourier Transform of GS
+Like technical indicator, fourier transform can help us capture some short term and long tern trends and behavriour. We include several fourier transforms of GS in our model as features.
+
+### Twitter Sentiment of Financial Market
+The stock market is also greatly affected by the investors' opinion on the market. We capture all the tweets from the twitter account @market 
+
+
 ### Related Company
 
 ## Results
