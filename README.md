@@ -1,5 +1,6 @@
 # Goldman-Sachs-Stock-Prediction
 
+## Table of Content
 * [Data](#Data)
     * [Related Stocks Price](#Related-Stocks-Price)
     * [Fixed Income Security](#Fixed-Income-Security)
@@ -8,6 +9,9 @@
     * [ARIMA of GS](#ARIMA-of-GS)
     * [Fourier Transform of GS](#Fourier-Transform-of-GS)
     * [Twitter Sentiment of Financial Market](#Twitter-Sentiment-of-Financial-Market)
+* [Model](#Model)
+    * [LSTM](#LSTM)
+* [Results](#Results)
 
 ## Data
 As our model need to train and predict daily, we will use prices of different financial securities as the features of our model. On the other hand, we generated some feature to capture the trends and behaviour of the stock price and performed some natural language processing to obtain investors' opnion towards the market.
