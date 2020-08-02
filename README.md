@@ -47,7 +47,6 @@ https://colab.research.google.com/drive/1lZEOXqNrxw_Vj2eZSkbyRecn6pSA0Ilk?usp=sh
 
 
 ## Results
-Mean Absolute Error : 5.5
-Mean Squared Error :  47.7
+Mean Absolute Error : 5.5 and Mean Squared Error :  47.7
 ![train_test](https://github.com/heamabc/Goldman-Sachs-Stock-Prediction/blob/master/Illustration1.png)
 ![test](https://github.com/heamabc/Goldman-Sachs-Stock-Prediction/blob/master/Illustration2.png)
