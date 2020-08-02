@@ -1,7 +1,7 @@
 # Goldman-Sachs-Stock-Prediction
 
-[Data](#Data)
-[- Fixed Income Security](#Fixed-Income-Security)
+* [Data](#Data)
+    * [- Fixed Income Security](#Fixed-Income-Security)
 
 ## Data
 As our model need to train and predict daily, we will use prices of different financial securities as the features of our model. On the other hand, we generated some feature to capture the trends and behaviour of the stock price and performed some natural language processing to obtain investors' opnion towards the market.
