@@ -38,7 +38,7 @@ In statistics, ARIMA can predict the stock price reasonably accurately. After so
 Like technical indicator, fourier transform can help us capture some short term and long tern trends and behavriour. We include several fourier transforms of GS in our model as features.
 
 ### Twitter Sentiment of Financial Market
-The stock market is also greatly affected by the investors' opinion towards the market. We captured all the tweets from the twitter account @market (https://twitter.com/markets) and used a pretrained natural language processing package BERT to analyse the sentiment of the tweets.
+The stock market is also greatly affected by the investors' opinion towards the market. We captured all the tweets from the twitter account @market (https://twitter.com/markets) and used a pretrained natural language processing package TextBlob to analyse the sentiment of the tweets.
 
 ## Model
 ### LSTM
