@@ -27,6 +27,11 @@ Like technical indicator, fourier transform can help us capture some short term 
 ### Twitter Sentiment of Financial Market
 The stock market is also greatly affected by the investors' opinion towards the market. We captured all the tweets from the twitter account @market (https://twitter.com/markets) and used a pretrained natural language processing package BERT to analyse the sentiment of the tweets.
 
+## Model
+### LSTM
+We used on layer of LSTM. Performed Xavier initialization and triangular learning rate.
+https://colab.research.google.com/drive/1lZEOXqNrxw_Vj2eZSkbyRecn6pSA0Ilk?usp=sharing
+
 
 ## Results
 ![train_test](https://github.com/heamabc/Goldman-Sachs-Stock-Prediction/blob/master/Illustration1.png)
