@@ -9,6 +9,7 @@
     * [ARIMA of GS](#ARIMA-of-GS)
     * [Fourier Transform of GS](#Fourier-Transform-of-GS)
     * [Twitter Sentiment of Financial Market](#Twitter-Sentiment-of-Financial-Market)
+* [Data Streaming](#Data-Streaming)
 * [Model](#Model)
     * [LSTM](#LSTM)
 * [Results](#Results)
@@ -40,9 +41,14 @@ Like technical indicator, fourier transform can help us capture some short term 
 ### Twitter Sentiment of Financial Market
 The stock market is also greatly affected by the investors' opinion towards the market. We captured all the tweets from the twitter account @market (https://twitter.com/markets) and used a pretrained natural language processing package TextBlob to analyse the sentiment of the tweets.
 
+## Data Streaming
+We retrieve all the data above daily from the internet through several different websites/API. It took us a lot of effort. We deployed the code on AWS EC2 instance.
+The server will save the data to an AWS RDS database daily.
+https://colab.research.google.com/drive/1dCNxGQMp3ia0LdpBNNp48ROY7hZ0Hsof?usp=sharing
+
 ## Model
 ### LSTM
-We used on layer of LSTM. Performed Xavier initialization and triangular learning rate. Script can be found here.
+We used one layer of LSTM. Performed Xavier initialization and triangular learning rate. Script can be found here.
 https://colab.research.google.com/drive/1lZEOXqNrxw_Vj2eZSkbyRecn6pSA0Ilk?usp=sharing
 
 
